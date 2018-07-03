@@ -15,3 +15,8 @@ rosdep update && \
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc && \
 source ~/.bashrc && \
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+
+# miniconda
+# if you install ROS first, conda will detect the PYTHONPATH is set, choose "no" to not append the conda path to it
+# becareful /user/ should be your user name, everytime in a new terminal if you want to run conda, type ssconda first
+echo "alias ssconda='unset PYTHONPATH && export PATH=/home/user/miniconda3/bin:$PATH' " >> ~/.bashrc && source ~/.bashrc
