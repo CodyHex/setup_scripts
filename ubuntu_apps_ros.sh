@@ -19,4 +19,8 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 # miniconda
 # if you install ROS first, conda will detect the PYTHONPATH is set, choose "no" to not append the conda path to it
 # becareful /user/ should be your user name, everytime in a new terminal if you want to run conda, type ssconda first
-echo "alias ssconda='unset PYTHONPATH && export PATH=/home/user/miniconda3/bin:$PATH' " >> ~/.bashrc && source ~/.bashrc
+echo "alias ssconda='unset PYTHONPATH && export PATH=/home/user/miniconda3/bin:$PATH && eval "$(register-python-argcomplete conda)"' " >> ~/.bashrc && source ~/.bashrc
+
+
+# you ONLY need to manually do this once for the conda tab complete
+conda install argcomplete
