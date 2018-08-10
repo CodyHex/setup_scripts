@@ -1,7 +1,6 @@
 Tester
 
-```
-#!python
+```python
 import tf
 import numpy as np
 import rospkg
