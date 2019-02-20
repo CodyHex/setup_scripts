@@ -32,7 +32,7 @@ read choice
 
 if (($choice == y)); then
 	touch $robot_name/{$robot_name"_base",$robot_name"_hri",$robot_name"_viz"}/README.md
-	echo $base_readme
+	curl -o $robot_name/README.md 'https://github.com/CodyHex/setup_scripts/blob/master/README.md'
 	echo -e $base_readme >> $robot_name/$robot_name"_base"/README.md
 fi
 
