@@ -34,6 +34,12 @@ In CMake options, `add -DCATKIN_DEVEL_PREFIX:PATH=workspace_folder/devel`.
 
 ![](https://www.jetbrains.com/help/img/idea/2019.1/cl_ros_cmake_settings.png)
 
+# make clion work with ROS python
+Add the system python interpreter in Menu Python Interpreter.
+Usually ROS is python 2.7 and does not have a pip, do this
+`sudo apt-get install python-pip` in a terminal and you should be good to go.
+
+
 alias exmaster="export ROS_MASTER_URI='http://ubuntu1:11311'"
 alias exapw="export ROS_MASTER_URI='http://apoorvcn47-Oryx-Pro:11311'"
 alias cdagv='cd ~/rdex_ws/src/agv'
