@@ -28,9 +28,9 @@ add mod1 = Alt_L Meta_L
 # clion using catkin make
 To have a single build across the IDE and console, you need to set CLion build paths to the catkin workspace directories. For this, go to File | Settings (Ctrl+Alt+S) | Build, Execution, Deployment | CMake and change two fields:
 
-In Generation path, set `workspace_folder/build`.
+In Generation path, set `~/catkin_ws/build`.
 
-In CMake options, `add -DCATKIN_DEVEL_PREFIX:PATH=workspace_folder/devel`.
+In CMake options, add `-DCATKIN_DEVEL_PREFIX:PATH=~/catkin_ws/devel`.
 
 ![](https://www.jetbrains.com/help/img/idea/2019.1/cl_ros_cmake_settings.png)
 
