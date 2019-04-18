@@ -49,5 +49,5 @@ source ~/rdex_ws/devel/setup.bash
 
 alias hconda='export PATH="/home/user/anaconda3/bin:$PATH"'
 # for the husky robot, disabled
-# export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
+`export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro`
 
