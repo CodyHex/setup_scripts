@@ -11,7 +11,6 @@ alias sskey='xmodmap ~/.Xmodmap'
 export DISPLAY=:0.0
 alias xdisplay='dbus-launch --exit-with-session ~/.xsession'
 alias exmaster="export ROS_MASTER_URI='http://ubuntu1:11311'"
-alias exapw="export ROS_MASTER_URI='http://apoorvcn47-Oryx-Pro:11311'"
 alias hpmake='cd ~/catkin_ws && catkin_make'
 
 source /opt/ros/kinetic/setup.bash
