@@ -11,7 +11,7 @@ alias xdisplay='dbus-launch --exit-with-session ~/.xsession'
 
 # My IDEs
 alias sskey='xmodmap ~/.Xmodmap' # swap ctr and alt
-alias xclion='bash ~/Apps/clion/bin/clion.sh'
+alias xlion='bash ~/Apps/clion/bin/clion.sh'
 alias xgendoc='rosdoc_lite . -o ~/catkin_ws/src/doc/'
 
 # ROS related
