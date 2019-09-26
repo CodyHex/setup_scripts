@@ -1,5 +1,12 @@
 # setup_scripts
 
+# for the window buttons
+```
+sudo apt-get install gnome-tweak-tool
+```
+# for the user friendly launch bar like windows
+<https://extensions.gnome.org/extension/1160/dash-to-panel/>
+
 # for tilix terminal in bashrc
 ```
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
